@@ -1,0 +1,10 @@
+.tags{
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+    padding: 0rem 0.5rem;
+    margin: 0 auto;
+    justify-content: center;
+    top: 0;
+}
