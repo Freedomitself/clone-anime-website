@@ -1,7 +1,7 @@
 .header{
     display: flex;
     flex-direction: column;
-    height: 16rem;
+    height: 11rem;
     margin: 0rem 14rem;
 }
 .tags{
@@ -57,19 +57,21 @@
     display: flex;
     flex-direction: row;
     font-size: 1rem;
-    background-color: rgb(13, 175, 245);
+    background-color: rgb(76, 91, 97);
     cursor: pointer;
+    color: #fff
 }
 .headtag > button{
     outline: transparent;
     border: transparent;
     border-right: 1px solid #636262;
     height: 2.5rem;
-    background-color:  rgb(13, 175, 245);
+    background-color:  rgb(76, 91, 97);
     cursor: pointer;
+    color: #fff;
 }
 .headtag > button:hover{
-    background-color: rgb(99, 188, 247);
+    background-color: rgb(13, 175, 245);
     transform: scale(1.1);
     transition: ease 300;
 }

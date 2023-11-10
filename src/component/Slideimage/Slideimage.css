@@ -1,0 +1,6 @@
+.image{
+    margin: 0 14rem;
+}
+.image > div{
+    height: 18rem;
+}
