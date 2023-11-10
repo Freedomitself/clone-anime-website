@@ -2,8 +2,10 @@ import './Slideimage.css'
 
 const Slideimage = () => {
   return (
-    <div>
-      
+    <div className='slide'>
+      <div className="image">
+
+      </div>
     </div>
   )
 }

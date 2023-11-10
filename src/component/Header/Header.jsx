@@ -3,6 +3,7 @@ import { Headertags } from '../../Data/Headertags'
 import { BsSearch } from "react-icons/bs";
 import { BiLogoFacebookSquare } from "react-icons/bi";
 import { CgTwitter } from "react-icons/cg";
+import Logo from "../../assets/logo-no-background.png"
 
 const Header = () => {
   return (
@@ -14,19 +15,23 @@ const Header = () => {
       </div>
 
       <div className="logo">
-        <CgTwitter/>
-        <BiLogoFacebookSquare/>
-        <input type="text" placeholder='search' />
-        <BsSearch/>
+        <img src={Logo} alt="" />
+        <span>All free anime for you</span>
+        <div className="search">
+          <CgTwitter className='icons'/>
+          <BiLogoFacebookSquare className='icons'/>
+          <input type="text" placeholder='search' />
+          <BsSearch/>
+        </div>
       </div>
 
       <div className="headtag">
-        <span>Home</span>
-        <span>Anime List</span>
-        <span>Anime Movies</span>
-        <span>Fall 2023 Anime</span>
-        <span>Anime Calender</span>
-        <span>Popular</span>
+        <button>Home</button>
+        <button>Anime List</button>
+        <button>Anime Movies</button>
+        <button>Fall 2023 Anime</button>
+        <button>Anime Calender</button>
+        <button>Popular</button>
         <span className='login/sign'>Login | Sign up</span>
       </div>
     </div>
